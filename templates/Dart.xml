@@ -1,0 +1,8 @@
+<templateSet group="Dart">
+  <template name="msd" value="Map&lt;String,dynamic&gt; $VAR$ = {$END$};&#10;" description="creates a Map&lt;String,dynamic&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
