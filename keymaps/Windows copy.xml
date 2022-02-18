@@ -1,7 +1,11 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateAndroidEmulatorToolWindow">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="Dart.NewDartFile">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="d" />
   </action>
+  <action id="Kotlin.RunScratch" />
   <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />

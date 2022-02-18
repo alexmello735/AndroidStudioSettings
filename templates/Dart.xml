@@ -5,4 +5,12 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="stfScreen" value="import 'package:flutter/material.dart';&#10;import 'package:i_mob/widgets/appbar-simple.dart';&#10;&#10;class $VAR$Screen extends StatefulWidget {&#10;  @override&#10;  _$VAR$ScreenState createState() =&gt; _$VAR$ScreenState();&#10;}&#10;&#10;class _$VAR$ScreenState extends State&lt;$VAR$Screen&gt; {&#10;  final GlobalKey&lt;ScaffoldState&gt; _scaffoldKey = new GlobalKey&lt;ScaffoldState&gt;();&#10;&#10;  @override&#10;  void initState() {&#10;    super.initState();&#10;  }&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      // backgroundColor: Colors.white,&#10;      key: _scaffoldKey,&#10;      appBar: SimpleAppBar(&#10;          leadingIcon: Icons.arrow_back_ios,&#10;          //sizeLeadingIcon: 40,&#10;          title: '$VAR2$',&#10;          bgcolor: Theme.of(context).primaryColor,&#10;          onLeadingPressed: () {&#10;            Navigator.pop(context);&#10;          },&#10;          actions: null),&#10;&#10;      body: Container($END$),&#10;    );&#10;  }&#10;&#10;  //&#10;}&#10;" description="statefull widget w/ scaffold and simpleappbar" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
 </templateSet>
