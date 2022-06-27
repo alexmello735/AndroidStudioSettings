@@ -26,6 +26,14 @@
           <option name="url" value="https://repo.perseiades.com.br/steeve/imoalertapp.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/weta-vn/advance_image_picker.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://repo.perseiades.com.br/alex/flutter3_progress_button.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Android\Projetos" />
