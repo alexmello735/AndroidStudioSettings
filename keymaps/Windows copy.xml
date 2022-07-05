@@ -2,9 +2,13 @@
   <action id="ActivateAndroidEmulatorToolWindow">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
+  <action id="ActivateFlutterInspectorToolWindow">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
   <action id="Dart.NewDartFile">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="d" />
   </action>
+  <action id="EditorContextInfo" />
   <action id="Kotlin.RunScratch" />
   <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
