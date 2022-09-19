@@ -2,6 +2,9 @@
   <action id="ActivateAndroidEmulatorToolWindow">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
+  <action id="ActivateDeviceManagerToolWindow">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="ActivateFlutterInspectorToolWindow">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
