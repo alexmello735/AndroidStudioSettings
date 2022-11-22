@@ -16,6 +16,9 @@
   </action>
   <action id="EditorContextInfo" />
   <action id="Kotlin.RunScratch" />
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="alt f" second-keystroke="n" />
+  </action>
   <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
