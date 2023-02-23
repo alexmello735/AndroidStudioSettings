@@ -19,6 +19,9 @@
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="n" />
   </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
   <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
