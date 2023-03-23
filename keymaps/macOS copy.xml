@@ -6,9 +6,21 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="f1" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
   <action id="UsageFiltering.WriteAccess" />
+  <action id="Vcs.Log.ShowTooltip">
+    <keyboard-shortcut first-keystroke="f1" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
 </keymap>
