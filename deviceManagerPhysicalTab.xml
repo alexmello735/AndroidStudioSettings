@@ -5,12 +5,23 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
+            <value value="RQCW2056YRF" />
+          </Key>
+        </key>
+        <name value="samsung SM-S918B" />
+        <target value="Android 13.0" />
+        <api value="androidversion:33:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
             <value value="ce11160ba3b4232d05" />
           </Key>
         </key>
         <name value="samsung SM-G935F" />
         <target value="Android 8.0" />
-        <api value="26" />
+        <api value="androidversion:26:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
