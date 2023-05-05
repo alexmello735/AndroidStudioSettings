@@ -1,15 +1,12 @@
 <keymap version="1" name="Windows copy" parent="$default">
-  <action id="ActivateAndroidEmulatorToolWindow">
-    <keyboard-shortcut first-keystroke="alt e" />
-  </action>
-  <action id="ActivateDeviceFileExplorerToolWindow">
-    <keyboard-shortcut first-keystroke="alt e" />
-  </action>
   <action id="ActivateDeviceManagerToolWindow">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="ActivateFlutterInspectorToolWindow">
     <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="ActivateRunningDevicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="Android.RunAndroidAvdManager">
     <keyboard-shortcut first-keystroke="alt d" />
