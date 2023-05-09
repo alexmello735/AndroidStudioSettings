@@ -1,18 +1,27 @@
 <keymap version="1" name="Windows copy" parent="$default">
-  <action id="ActivateLogcatToolWindow">
-    <keyboard-shortcut first-keystroke="alt 6" />
+  <action id="ActivateDeviceManagerToolWindow">
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
-  <action id="ActivateTODOToolWindow" />
-  <action id="ChangesView.GroupBy.Module" />
+  <action id="ActivateFlutterInspectorToolWindow">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="ActivateRunningDevicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="Android.RunAndroidAvdManager">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="Dart.NewDartFile">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="d" />
   </action>
-  <action id="ExtractFunctionToScope" />
+  <action id="EditorContextInfo" />
   <action id="Kotlin.RunScratch" />
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="alt f" second-keystroke="n" />
   </action>
-  <action id="TodoViewGroupByShowModules" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
   <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
