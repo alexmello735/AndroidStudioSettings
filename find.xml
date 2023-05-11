@@ -7,6 +7,7 @@
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
     <option name="FILE_MASK" value="*.dart" />
     <mask>*form*.dart</mask>
+    <mask>format*.dart</mask>
     <mask>*.dart</mask>
   </component>
 </application>
